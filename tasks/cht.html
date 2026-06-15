@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <table border="1" cellpadding="10" cellspacing="0" width="400">
+    <tr>
+      <td align="center">
+        <h1>User Personal Information</h1>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="name">Enter your full name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Enter your e-mail</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Enter your password</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirm your password</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <label>Enter your gender</label><br>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+        <input type="radio" name="gender" value="others" required> Others<br><br>
+
+        <label for="dob">Enter your Date of Birth</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="address">Enter your Address</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <input type="submit" value="Submit">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
