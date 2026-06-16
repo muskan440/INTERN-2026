@@ -1,0 +1,27 @@
+.parent{
+    border: 2px solid black;
+    height: 750px;
+    width: 739px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+.gray{
+    border: 1px solid black;
+    height: 92px;
+    width: 91px;
+    background-color: gray;
+
+}
+
+.white{
+    border: 1px solid black;
+    height: 92px;
+    width: 91px;
+    background-color: white;
+
+}
+h1{
+    text-align: center;
+}
