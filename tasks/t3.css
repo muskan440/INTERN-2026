@@ -1,0 +1,22 @@
+.container{
+   
+    height: 450px;
+    width: 100%;
+}
+.child{
+    
+    height: 50px;
+    width: 100%;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    text-align: right;
+    justify-content: right;
+    padding-top: 10px ;
+
+}
+.ct{
+
+}

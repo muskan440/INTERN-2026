@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    
+    height: 300px;
+    width: 900px;
+   
+}
+.red{
+    
+    height: 250px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.black{ 
+    
+    height: 50px;
+     background-color: rgb(34, 20, 89);
+     color: white;
+     font-size: small;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     /* justify-content: center; */
+    
+}
+.black UL{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    margin-left: 2px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(62, 253, 167);
+}
+
+.child{
+    
+    height: 60px;
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    
+}
+.link:hover{
+    color: greenyellow;
+
+
+}
+.link{
+
+    color: white;
+    text-decoration: dotted;
+    cursor: pointer;
+}
+.card{
+    border: 2px solid black;
+    height: 60px;
+    width: 25%;
+    margin-top: 1px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    background-color: rgb(124, 193, 19);
+   
+}
+.card1{
+     
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(124, 193, 19);
+    color: white; 
+   
+}
+
+.card2{
+    
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(134, 206, 235); 
+    color: white; 
+   
+}
+
+.card3{
+     
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: orange; 
+    color: white; 
+   
+}
+
+.card4{
+    
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 106, 40) ;
+    color: white; 
+   
+}
+
+.card5{
+    
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsalmon;
+    color: white; 
+   
+}
+
+.card6{
+    
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 150, 222) ;
+    color: white; 
+   
+}
+
+.card7{
+    
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+    color: white; 
+   
+}
+
+.card8{
+     
+    height: 60px;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 4px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(138, 230, 183);
+    color: white; 
+   
+}
+
+.detail{
+    
+    height: 300px;
+    width: 88%;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+    
+
+
+
+.Results1{
+    
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Results2{
+   
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 4px;
+
+}
+
+.Results3{
+   
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+   
+    
+    margin-left: 4px;
+
+}
+
+.heading1{
+   
+    height: 70px;
+    width: 100%;
+    background-color: darkred;
+    align-items: center;
+    text-align: center;
+    color: white;
+     margin-top: 10px;
+
+
+}
+.heading2{
+    
+    height: 70px;
+    width: 100%;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.heading3{
+    
+    height: 70px;
+    width: 100%;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+
+}
+.second{
+    
+    height: 232px;
+    width: 100%;
+    background-color: rgb(198, 214, 53);
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.third{
+    
+    height: 232px;
+    width: 100%;
+    background-color: rgb(198, 214, 53);
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+   
+}
+
+.first{
+    
+    height: 232px;
+    width: 100%;
+    background-color: rgb(198, 214, 53);
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
