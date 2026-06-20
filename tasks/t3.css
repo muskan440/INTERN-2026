@@ -1,22 +1,64 @@
-.container{
-   
-    height: 450px;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
 }
-.child{
-    
+
+.container{
+  
+   height: 500px;
+   width: 850px;
+}
+.gray{
+    background-color: gainsboro;
     height: 50px;
-    width: 100%;
-    background-color: darkgrey;
     display: flex;
     flex-direction: row;
-    list-style: none;
-    gap: 30px;
-    text-align: right;
     justify-content: right;
-    padding-top: 10px ;
+    gap: 10px;
+    list-style: none;
+    
+
 
 }
-.ct{
 
+.gray img{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    margin-bottom: 15px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: left;
+} 
+.gray li{
+    margin: 10px;
+}
+
+.gray input[type="text"]{
+    margin: 10px;
+}
+
+input[type="Search"]{
+    margin: 10px;
+    width: 70px;
+}
+
+    
+
+  img{
+    height:450px ;
+    width: 850px;
+    
+}
+
+/* .parent input[type="text"]{
+    position: absolute;
+} */ */
+
+.parent {
+    background-image: url(./Screenshot\ 2026-06-16\ 230337.png);
+   background-repeat: no-repeat;
+   position: absolute;
+   
 }

@@ -2,7 +2,7 @@ let name="muskan"
 let age=19
 let height= 5.0
 let percentagemarks=80.2
-let intern="true"
+let intern=true
 
 console.log(name);
 console.log(typeof(name));
