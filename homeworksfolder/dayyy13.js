@@ -1,44 +1,45 @@
-// //1.
+//1.
 
 
 
-// let Student={
-//     name: "Muskan",
-//     age: 19,
-//     Course: "B.tech",
-//     city: "Deoria"
-// }
-// console.log(Student);
+let Student={
+    name: "Muskan",
+    age: 19,
+    Course: "B.tech",
+    city: "Deoria"
+}
+console.log(Student);
 
-// //2.updating object properties
-// Student.name="Muskan Chaurasiya"
-// Student.city="Lucknow"
-// Student.age=20
+//2.updating object properties
+Student.name="Muskan Chaurasiya"
+Student.city="Lucknow"
+Student.age=20
 
-// console.log(Student);
+console.log(Student);
 
-// //3. Add new properties
+//3. Add new properties
 
-// Student.email="kjhdkjfh@gmail.com"
-// Student.MobNum= 9999999990
-// console.log(Student);
+Student.email="kjhdkjfh@gmail.com"
+Student.MobNum= 9999999990
+console.log(Student);
 
-// //4. deleting properties
+//4. deleting properties
 
-// delete Student.MobNum
-// console.log(Student);
+delete Student.MobNum
+console.log(Student);
 
-// //5. employee 
+//5. employee 
 
-// let Employee={
-//     id: "manager",
-//     name: "Shalu",
-//     department: "IT",
-//     salary: 30000
+let Employee={
+    id: "manager",
+    name: "Shalu",
+    department: "IT",
+    salary: 30000
     
 
-// }
-// console.log(Employee);
+
+}
+console.log(Employee);
 
 let Product={
     Productname: "Titan quartz analog with date blue dial stainless steel strap watch for women",
@@ -76,3 +77,21 @@ console.log(javascript);
    }
 }
 console.log(Student);
+
+// Q8. Object Keys
+
+
+
+let std={
+  Name: "Muskan",
+  Age: 19,
+  Profile: "Student",
+  Branch: "Computer Science Computer",
+
+  Address: {
+    Village: "Mahuadih",
+    City: "Deoria",
+    State: "UP"
+  }
+}
+console.log(std);
