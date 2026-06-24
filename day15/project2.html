@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changing</title>
+</head>
+<body>
+    <div style="display: flex; justify-content:center">
+        <button style="padding: 20px; " onclick="change()">Change Color</button>
+
+        <script>
+            let color=["pink", "blue", "black", "gray", "red"]
+            function change(){
+                let body= document.body
+                let random=Math.floor(Math.random()*(color.length))
+                body.style.backgroundColor=color[random]
+            }
+        </script>
+    </div>
+    
+</body>
+</html>
