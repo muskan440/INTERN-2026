@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb On/Off</title>
+
+  <style>
+    body {
+      text-align: center;
+      background-color: #f4f4f9;
+      margin-top: 50px;
+    }
+    img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #btnOn {
+      
+      color: black;
+    }
+    #btnOn:hover {
+      background-color: plum;
+    }
+    #btnOff {
+     
+      color: black;
+    }
+    #btnOff:hover {
+      background-color: plum;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="photo" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Bulb"><br>
+  <button id="btnOn" onmouseover="On()">Turn On</button>
+  <button id="btnOff" onmouseover="Off()">Turn Off</button>
+
+
+  <script>
+    function On() {
+      let photo = document.querySelector("#photo");
+      photo.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+    }
+    function Off() {
+      let photo = document.querySelector("#photo");
+      photo.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+    }
+  </script>
+</body>
+</html>

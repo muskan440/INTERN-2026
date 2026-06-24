@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Changing Background</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="change()">Change Color</button>
+
+  <script>
+    let colors = ["pink", "blue", "gray", "red", "green", "orange", "purple"];
+    
+    function change() {
+      let body = document.body;
+      let randomIndex = Math.floor(Math.random() * colors.length);
+      body.style.backgroundColor = colors[randomIndex];
+    }
+  </script>
+</body>
+</html>
