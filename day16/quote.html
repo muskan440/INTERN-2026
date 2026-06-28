@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote generator</title>
+</head>
+<body>
+    <h1 style="display: flex;
+     align-items:center; 
+     justify-content:center;">
+     Welcome to world of quotes
+    </h1>
+      <div style="display: flex;
+       justify-content:center">
+        <div>
+            <h3 id="quote" style="border: 2px solid black;">Click to generate code</h3>
+    
+        <button style="padding: 20px; " onclick="quote()">generate quote</button>
+          </div>
+
+        <script>
+            let quote=["You only live once, but if you do it right, once is enough.",
+             "It does not do to dwell on dreams and forget to live.", 
+             "Good friends, good books, and a sleepy conscience: this is the ideal life.",
+              "Life is what happens to us while we are making other plans.",
+               "Everything you can imagine is real."]
+            function quote(){
+                let heading= document.querySelector("#quote")
+                let random=Math.floor(Math.random()*(quote.length))
+                //body.style.backgroundColor=color[random]
+                heading.innerHTML=quote[random]
+            }
+        </script>
+    </div>
+    
+    
+</body>
+</html>
