@@ -1,8 +1,8 @@
 // for loop
-// for(let i=1;i<=9;i++){
-//     console.log("muskan");
-//     console.log(i);
-// }
+for(let i=1;i<=9;i++){
+    console.log("muskan");
+    console.log(i);
+}
 
 
 //write a program to print table of 2
