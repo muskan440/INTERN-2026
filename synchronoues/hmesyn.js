@@ -32,6 +32,7 @@ function EXAMDAY(){
     start()
     PREPARATION()
     TakesAdmitcard()
+    EXAMDAY()
     FINAL()
    
 
