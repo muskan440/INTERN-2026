@@ -1,54 +1,55 @@
 import React from 'react'
+import { FaRegBookmark } from "react-icons/fa6"
 
-const Hw = () => {
+const Hw = (props) => {
   return (
     <div className='main'>
            <div className='upper'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbT9toGFAEVDN3mJcCh98BSCLaDmCx7UbWEhgZnsuOGA&s=10" alt="logo" />
+            <img src={props.img} alt="logo" />
             <button>
-                save
+                save <FaRegBookmark/>
             </button>
 
         </div>
 
         <div className='middle'>
             <h2>
-                Meta &nbsp;
+                {props.Cname} &nbsp;
             </h2>
             <span>
-                5 days ago
+                {props.date}
             </span>
 
             <h1>
-                Fronted Engineer
+                {props.profile}
             </h1>
         </div>
 
         <div className='middle2'>
             <button>
-                Full time
+               {props.keyword1}
             </button>
 
 
             <button>
-                    Junior Level
+                   {props.keyword2}
             </button>
         </div>
 
         <div className='down'>
             <h1>
-                $65/hour
+              {props.payout}
            </h1>
          
 
-           <button>
-            View More
-           </button>
+           <a href={props.Apply}>
+            Apply Now
+           </a>
 
         </div>
 
           <p>
-            Mumbai, India
+            {props.location}
            </p>
     </div>
   )
